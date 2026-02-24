@@ -1312,6 +1312,10 @@ table th{
   padding-left: 1rem;
 }
 
+.faq-col .faq-item-second{
+  display: none;
+}
+
 .faq-item{
   position: relative;
   border-radius: 0.8333333333rem;
@@ -2402,6 +2406,14 @@ table th{
   .faq-col{
     width: 100%;
     flex-basis: 100%;
+  }
+
+  .faq-col:last-child {
+    display: none;
+  }
+
+  .faq-col .faq-item-second{
+    display: block;
   }
 
   .partners-list{
