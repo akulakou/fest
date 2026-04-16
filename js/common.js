@@ -71,7 +71,7 @@ $(document).ready(function () {
 var art_slider = [];
 function init_art_slider() {
   if (window.innerWidth > 768 && art_slider.length > 0) {
-    console.log(art_slider.length);
+    //console.log(art_slider.length)
     art_slider.forEach(function (item) {
       item.destroy();
     });

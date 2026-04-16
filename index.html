@@ -35,7 +35,6 @@
   <link rel="stylesheet" href="libs/aos-master/dist/aos.css?v=0.0.1"  media="screen" />
   <link rel="stylesheet" href="css/main.css?v=0.0.1"  media="screen" />
 
-<!-- changed start -->
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -62,7 +61,6 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3CVV2Q6"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- changed end -->
  
 <!-- header -->
 <header class="header">
@@ -92,7 +90,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
 
           <div class="contacts-btn">
-            <a href="#buy" data-fancybox  class="btn" id="head-btn">купить билет от 25 BYN</a>
+            <!-- changed -->
+            <a href="#buy" data-fancybox  class="btn" id="head-btn">купить билет</a>
+            <!-- changed end -->
           </div>
         </div>
       </div>
@@ -109,15 +109,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="hero-section" id="main"> 
   <div class="wrapper">
     <div class="hero-title" data-aos="fade-up" data-aos-duration="1200"><img src="img/data/title.png" alt="ФЕСТИВАЛЬ ЯРКИХ ЭМОЦИЙ"></div>
-    <div class="hero-capt" data-aos="fade-left" data-aos-delay="500" data-aos-duration="700"><img src="img/data/title-capt.png" alt="Твой выбор. Твой формат"></div>
+    <!-- changed start -->
+    <div class="hero-capt" data-aos="fade-left" data-aos-delay="500" data-aos-duration="700"><img src="img/data/head.png" alt=""><img src="img/data/head-mobile.png" alt="" class="mobile"></div>
     <div class="hero-date" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
       <div class="num">13</div> 
       <div class="c">
         <div class="t">июня</div>
-        Стадион «Динамо»
+        <div class="p">Стадион «Динамо»</div>
       </div>
     </div>
-    <div class="section-btns" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900"><a href="#buy" data-fancybox class="btn btn-main" id="hero-btn">купить билет от 25 BYN</a></div>
+    <div class="section-btns" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900"><a href="#buy" data-fancybox class="btn btn-main" id="hero-btn">купить билет</a></div>
+    <!-- changed end -->
   </div>
 </section>
 
@@ -146,7 +148,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- art -->
 
-<!-- changed start -->
 <div class="section art-section" id="artists">
   <div class="wrapper">
     <div class="section-title" data-aos="fade-up">артисты</div>
@@ -166,11 +167,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
               </div> 
               <div class="swiper-slide">
+                <!-- changed start -->
                 <div class="art-item">
-                  <div class="art-item-img" style="background-image: url(img/data/artist-image02.jpg);"></div>
+                  <div class="art-item-img" style="background-image: url(img/data/art/simons.jpg);"></div>
                   <div class="art-item-text">
+                    Eva Simons
                   </div>
                 </div>
+                <!-- changed end -->
               </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -191,18 +195,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
               </div>
               <div class="swiper-slide">
-                <div class="art-item">
-                  <div class="art-item-img" style="background-image: url(img/data/artist-image04.jpg);"></div>
+                <!-- changed start -->
+                <div class="art-item opened">
+                  <div class="art-item-img" style="background-image: url(img/data/art/niletto.jpg);"></div>
                   <div class="art-item-text">
-                    «Вместе нам в клуб пора...»
+                    Niletto
                   </div>
                 </div>
+                <!-- changed end -->
               </div>
               <div class="swiper-slide">
                 <div class="art-item">
-                  <div class="art-item-img" style="background-image: url(img/data/artist-image05.jpg);"></div>
+                  <div class="art-item-img" style="background-image: url(img/data/art/seryabkina.jpg);"></div>
                   <div class="art-item-text">
-                    «Нам с ним было хорошо рядом...»
+                    SERYABKINA
                   </div>
                 </div>
               </div>
@@ -265,7 +271,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="decor decor-left decor-5" data-paroller-factor="0.2"></div>
   <div class="decor decor-left decor-6" data-paroller-factor="0.15"></div>
 </div>
-<!-- changed end -->
 <!-- art end -->
 
 
@@ -362,6 +367,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="decor decor-left decor-10" data-paroller-factor="0.05"></div>
 </div>
 <!-- photo end -->
+
+
+<!-- changed start -->
+<!-- luck end -->
+<div class="section luck-section" id="luck">
+  <div class="wrapper">
+    <div class="section-title" data-aos="fade-up">Включай удачу!</div>
+    <div class="luck-block" data-aos="fade-up">
+      <div class="luck-text">
+        <p>Введи промокод <strong>FEST</strong> при регистрации в <strong>belbet</strong> и&nbsp;забирай до <strong>10 Супер Колес Фортуны за депозиты:</strong></p>
+      </div>
+
+      <div class="luck-list">
+        <div class="luck-list-item">
+          <strong>2</strong> <span class="spin"></span> за депозит <strong>от 15 до 29,99 BYN</strong>
+        </div>
+        <div class="luck-list-item">
+          <strong>3</strong> <span class="spin"></span> за депозит <strong>от 30 до 69,99 BYN</strong>
+        </div>
+        <div class="luck-list-item">
+          <strong>5</strong> <span class="spin"></span> за депозит <strong>от 70 BYN</strong>
+        </div>
+      </div>
+
+      <div class="luck-bottom">
+        <a href="#" class="btn btn-main">скачать приложение</a>
+
+        <div class="capt">Акция действует до <strong>20.06.2026</strong> для новых игроков</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- luck end -->
+<!-- changed end -->
 
 
 <!-- faq -->
@@ -578,10 +617,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p>Организатор: ООО «МУЗЫКАЛЬНАЯ МЕДИАКОМПАНИЯ», УНП 193638167<br/>
           г. Минск, пл. Октябрьская, д. 1-1, к. 208. Сайт организатора: <a href="https://muzmedia.by/" target="_blank">muzmedia.by</a></p>
         <div class="capt">
-          <!-- changed start -->
           <p>© Республиканское Унитарное Предприятие «Белорусские лотереи», УНП 190000087.<br/>
           г. Минск, ул. Будённого, 10, пн–пт с 9:00 до 17:30 <br/>Удостоверения N 750 от 17.02.2026 и N 953 от 23.02.2026 выданы Управлением культуры Мингорисполкома</p>
-          <!-- changed end -->
         </div>
       </div>
     </div>
